@@ -126,16 +126,37 @@ img{
     border:3px solid royalblue;
     border-radius: 10px;
 }
-
 .item1,
 .item2,
 .item3,
 .item4{
-   
-    
     height: 200px;
     width: 200px;
 }
 /*quote*/
+.container4{
+    display: flex;
+    background-color: lightgrey;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    flex-direction: column;
+    padding: 40px;
+}
+#quote{display: flex;
+    font-size: 36px;
+    font-style: italic ;
+    color: #1f2937;
+    width: 550px;
+    text-align: justify;
+    
+}
+#author{display: flex;
+font-weight: 700;
+align-self: flex-end;
+width: 380px;
+font-size: 16px;
+padding: 5px;
+}
 /*box container*/
 /*Footer container*/
