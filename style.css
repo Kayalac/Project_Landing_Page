@@ -11,35 +11,79 @@ ul{
 }
 a{
     text-decoration: none;
-    color: white;
+    color:#E5E7EB;
+    font-size: 18px;
 }
 
 /*header*/
 .header{
     display: flex;
     background-color: #1f2937;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
    padding: 10px;
-   
 }
 .left{
     display: flex;
-  align-items: center;
+  align-items: flex-start;
+  
   color: white;
+  flex-direction: column;
+  
+  
  
 }
 .logo{
-   font-size: medium;
+   font-size: 24px;
    font-weight: 700;
+   color: #F9FAF8;
+
  }
 
+ .right{
+    display: flex;
+    align-items: center;
 
-
-
-
+}
 /*first container*/
-/*Randomo container*/
+.container1{
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-evenly;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.title{
+    display: flex;
+    font-size: 48px;
+    font-weight: 900;
+    width: 390px;
+    color: #F9FAF8;
+ }
+.paragraph{
+    width: 300px;
+    height: 80px;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.item{
+    height: auto;
+    width: 300px;
+}
+button.signup{
+    color: white;
+    background: royalblue;
+    border: 1px royalblue;
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 8px 16px;
+    
+    
+}
+
+/*Random container*/
 /*Image container*/
 
 img{
@@ -47,6 +91,7 @@ img{
     max-height: 100%;
     object-fit: contain;
 }
+
 .item1,
 .item2,
 .item3,
