@@ -26,20 +26,14 @@ a{
 .left{
     display: flex;
   align-items: flex-start;
-  
   color: white;
   flex-direction: column;
-  
-  
- 
 }
 .logo{
    font-size: 24px;
    font-weight: 700;
-   color: #F9FAF8;
-
+   color: #F9FAF8
  }
-
  .right{
     display: flex;
     align-items: center;
@@ -148,8 +142,7 @@ img{
     font-style: italic ;
     color: #1f2937;
     width: 550px;
-    text-align: justify;
-    
+    text-align: justify;    
 }
 #author{display: flex;
 font-weight: 700;
@@ -159,4 +152,44 @@ font-size: 16px;
 padding: 5px;
 }
 /*box container*/
+.container5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.box{
+    display: flex;
+    border-radius: 10px;
+    background-color: #3882f6;
+    width: 600px;
+    height: 100px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header_box{
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+.text_box{
+    color: lightgrey;
+    font-size: 18px;
+    height: 50px;
+    width: 360px;
+}
+button.signup_box{ 
+color: white;
+    background: #3882f6 ;
+    border: 2px solid white;
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 4px 12px;
+    font-size: medium;
+     }
 /*Footer container*/
